@@ -1,0 +1,87 @@
+/* Styles for portfolio */
+:root {
+    --colorPrimary: #36454F;
+    --colorSecondary: #ffffff;
+    --accentColor: #228B22;
+    --headingWeight: 700;
+}
+
+.button {
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    margin-right: 10px;
+}
+
+.button-fill {
+    background-color: var(--accentColor);
+    color: var(--colorSecondary);
+}
+
+.button-stroke {
+    border: solid 2px var(--accentColor);
+    color: var(--accentColor);
+}
+
+.button-fill:hover {
+    background-color: var(--colorPrimary);
+}
+
+.button-stroke:hover {
+    border: solid 2px var(--colorPrimary);
+    color: var(--colorPrimary);
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.display-2 {
+    font-weight: var(--headingWeight);
+}
+.lead {
+    font-weight: 400;
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-color: var(--colorSecondary);
+}
+
+img{
+    max-width: 18rem;
+    max-height: 18rem;
+}
+
+nav li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav ul {
+    text-align: end;
+}
+
+svg {
+    fill: var(--colorPrimary);
+    width: 35px;
+}
+
+svg:hover {
+    fill: var(--accentColor);
+}
+
+footer {
+    background-color: var(--colorPrimary);
+    color: var(--colorSecondary);
+}
+
+footer svg {
+    fill: var(--colorSecondary);
+}
